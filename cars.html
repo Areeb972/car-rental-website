@@ -4,56 +4,44 @@
     <meta charset="UTF-8">
     <title>Available Cars</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background: #f5f5f5;
-            margin: 0;
-            padding: 20px;
-        }
-        h1 {
-            text-align: center;
-        }
-        .car {
-            background: white;
-            padding: 15px;
-            margin: 15px auto;
-            max-width: 500px;
-            border-radius: 8px;
-        }
-        .car a {
-            margin-right: 10px;
-            text-decoration: none;
-            color: #007bff;
-            font-weight: bold;
-        }
-    </style>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
 
-<h1>Available Cars</h1>
+<header>
+    <h1>Available Cars</h1>
+    <p>Browse cars and contact owners directly</p>
+</header>
 
-<div class="car">
-    <h3>Toyota Corolla 2020</h3>
-    <p>City: Karachi</p>
-    <p>Price: Rs 6,000 / day</p>
-    <a href="tel:+923001234567">Call Owner</a>
-    <a href="https://wa.me/923001234567" target="_blank">WhatsApp Owner</a>
-</div>
+<nav>
+    <a href="index.html">Home</a>
+    <a href="cars.html">Rent a Car</a>
+</nav>
 
-<div class="car">
-    <h3>Honda Civic 2019</h3>
-    <p>City: Lahore</p>
-    <p>Price: Rs 8,000 / day</p>
-    <a href="tel:+923111234567">Call Owner</a>
-    <a href="https://wa.me/923111234567" target="_blank">WhatsApp Owner</a>
-</div>
+<section>
 
-<p style="text-align:center;">
-    <a href="index.html">⬅ Back to Home</a>
-</p>
+    <div class="car">
+        <h3>Toyota Corolla 2020</h3>
+        <p>📍 Karachi</p>
+        <p>💰 Rs 6,000 / day</p>
+        <a class="btn" href="tel:+923001234567">Call Owner</a>
+        <a class="btn secondary" href="https://wa.me/923001234567">WhatsApp</a>
+    </div>
+
+    <div class="car">
+        <h3>Honda Civic 2019</h3>
+        <p>📍 Lahore</p>
+        <p>💰 Rs 8,000 / day</p>
+        <a class="btn" href="tel:+923111234567">Call Owner</a>
+        <a class="btn secondary" href="https://wa.me/923111234567">WhatsApp</a>
+    </div>
+
+</section>
+
+<footer>
+    <p>© 2026 Car Rental Listing Platform</p>
+</footer>
 
 </body>
 </html>
