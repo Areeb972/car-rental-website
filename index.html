@@ -1,53 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Car Rental Listing Platform</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
+  <meta charset="UTF-8">
+  <title>DriveShare – Rent & List Cars Easily</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
 </head>
-
 <body>
 
-<header>
-    <h1>Car Rental Listing Platform</h1>
-    <p>Connect car owners and renters directly — simple, trusted, and transparent</p>
-</header>
+  <!-- NAVBAR -->
+  <header class="navbar">
+    <div class="logo">DriveShare</div>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="cars.html">Rent a Car</a>
+      <a href="#list">List Your Car</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
 
-<nav>
-    <a href="index.html">Home</a>
-    <a href="cars.html">Rent a Car</a>
-    <a href="https://forms.gle/PASTE-YOUR-GOOGLE-FORM-LINK" target="_blank">Register Your Car</a>
-</nav>
+  <!-- HERO SECTION -->
+  <section class="hero">
+    <h1>Rent Cars. List Your Car. Earn Easily.</h1>
+    <p>A trusted car rental platform for real people.</p>
+    <div class="hero-buttons">
+      <a href="cars.html" class="btn">Rent a Car</a>
+      <a href="#list" class="btn outline">Register Your Car</a>
+    </div>
+  </section>
 
-<section>
+  <!-- HOW IT WORKS -->
+  <section class="steps">
     <h2>How It Works</h2>
-    <p>
-        Car owners list their vehicles.  
-        Renters browse and contact owners directly.  
-        We do not handle payments or bookings.
-    </p>
+    <div class="step-box">
+      <div class="step">
+        <h3>1. List Your Car</h3>
+        <p>Upload car details, pictures & documents securely.</p>
+      </div>
+      <div class="step">
+        <h3>2. Set Your Price</h3>
+        <p>We suggest fair rent based on your car.</p>
+      </div>
+      <div class="step">
+        <h3>3. Rent Safely</h3>
+        <p>Verified renters contact you directly.</p>
+      </div>
+    </div>
+  </section>
 
-    <a class="btn" href="cars.html">Rent a Car</a>
-    <a class="btn secondary" href="https://forms.gle/PASTE-YOUR-GOOGLE-FORM-LINK" target="_blank">
-        Register Your Car
-    </a>
-</section>
+  <!-- LIST YOUR CAR -->
+  <section id="list" class="list-car">
+    <h2>Register Your Car for Rental</h2>
+    <p>Only real owners with valid documents can list cars.</p>
+    <a href="#" class="btn">Open Registration Form</a>
+  </section>
 
-<section>
-    <h2>Why Choose Us?</h2>
-    <p>✔ No middlemen</p>
-    <p>✔ Direct owner contact</p>
-    <p>✔ Verified listings</p>
-    <p>✔ Simple & transparent</p>
-</section>
-
-<footer>
-    <p>
-        Disclaimer: We are a listing platform only.  
-        All agreements are directly between car owners and renters.
-    </p>
-</footer>
+  <!-- FOOTER -->
+  <footer id="contact">
+    <p>© 2026 DriveShare. All rights reserved.</p>
+    <p>Terms • Privacy • Safety</p>
+  </footer>
 
 </body>
 </html>
